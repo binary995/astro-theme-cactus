@@ -1,7 +1,7 @@
 ---
 title: "Element-plus补充"
-publishDate: "2023 12 27"
-description: "An example post for Astro Cactus, detailing how to add a custom social image card in the frontmatter"
+publishDate: "2023 10 20"
+description: "在实际项目中会遇见的一些组件库的使用问题"
 tags: ["vue3", "blog", "element"]
 ogImage: "/social-card.png"
 ---

@@ -10,55 +10,36 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 	{
-		title: "Astro",
-		desc: "Build fast websites, faster.",
-		href: "https://astro.build",
+		title: "Vue3",
+		desc: "Vue工程师必备神器",
+		href: "https://cn.vuejs.org/",
 	},
 	{
-		title: "Astro Assets",
-		desc: "Built-in optimized asset support.",
-		href: "https://docs.astro.build/en/guides/assets/",
+		title: "Vue2",
+		desc: "会3又要会2，烦死",
+		href: "https://v2.cn.vuejs.org/",
 	},
 	{
-		title: "Tailwind CSS",
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
-		href: "https://tailwindcss.com",
+		title: "Element Plus",
+		desc: "基于 Vue 3，面向设计师和开发者的组件库",
+		href: "https://element-plus.org/zh-CN/",
 	},
 	{
-		title: "Markdown",
-		desc: "Simple and easy-to-use markup language.",
-		href: "https://www.markdownguide.org/",
+		title: "Element",
+		desc: "一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库.",
+		href: "https://element.eleme.cn/#/zh-CN",
 	},
-	{
-		title: "MDX",
-		desc: "Markdown for the component era.",
-		href: "https://mdxjs.com/",
-	},
-	{
-		title: "Satori",
-		desc: "Generating png Open Graph images for blog posts.",
-		href: "https://github.com/vercel/satori",
-	},
-	{
-		title: "Pagefind",
-		desc: "A fully static search library.",
-		href: "https://pagefind.app/",
-	},
-	{
-		title: "Astro Icon",
-		desc: "An easy to use Icon component for Astro.",
-		href: "https://github.com/natemoo-re/astro-icon#readme",
-	},
+	
 ];
 ---
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Hello World!</h1>
+		<h1 class="title mb-6">Hello Body!</h1>
 		<p class="mb-4">
-			Hi, I’m a theme for Astro, an example of how you can use this starter to create a personal
-			blog. If you want to know more about how you can customise me, add more posts, and make it
-			your own, click on the github icon link below and it will take you to my repo.
+			欢迎访问我的博客，此博客主要用于上传笔记，没事也会发疯写写日记，虽然根本没人看。
+			但没人看真的太好了。 
+			哈哈哈！！！
 		</p>
 		<SocialList />
 	</section>
